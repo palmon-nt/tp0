@@ -11,7 +11,7 @@
 #include "utils.h"
 
 
-t_log* iniciar_logger(void);
+t_log* iniciar_logger(char *file, char *process_name, bool is_active_console, t_log_level level);
 t_config* iniciar_config(void);
 void leer_consola(t_log*);
 void paquete(int);
